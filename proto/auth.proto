@@ -1,0 +1,51 @@
+syntax= "proto3";
+import "google/protobuf/empty.proto";
+
+package auth;
+
+message TokenDto {
+  string token = 1;
+}
+
+// Signup
+message SignupRequest {
+  string userUuid = 1;
+  string password = 2;
+}
+
+// Signin
+message SigninRequest {
+  string userUuid = 1;
+  string password = 2;
+}
+
+// Delete Auth Credential
+message DeleteAuthCredentialRequest {
+  string userUuid = 1;
+}
+
+// Change Password
+message ChangeAuthCredentialRequest {
+  string userUuid = 1;
+  optional string password = 1;
+  optional bool isBlocked = 1;
+}
+
+// Check Token
+message CheckTokenRequest {
+  string token = 1;
+}
+
+// Restart Token
+message RestartTokenRequest {
+  string token = 1;
+}
+
+service AuthService {
+  rpc Signup (SignupRequest) returns (TokenDto) {}
+  rpc Signin (SigninRequest) returns (TokenDto) {}
+  rpc DeleteAuthCredential (DeleteAuthCredentialRequest) returns (google.protobuf.Empty) {}
+  rpc ChangeAuthCredential (ChangeAuthCredentialRequest) returns (TokenDto) {}
+  rpc CheckToken(CheckTokenRequest) returns (google.protobuf.Empty) {}
+  rpc RestartToken(RestartTokenRequest) returns (TokenDto) {}
+}
