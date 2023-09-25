@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/sales-cms-project/lib-proto/compare/v0.0.4...v0.1.0) (2023-09-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **sc-123:** add a new file
+
+### Features
+
+* **sc-123:** add auth proto file desc ([7197630](https://github.com/sales-cms-project/lib-proto/commit/71976306456d45b373050795c79c3c4521283383))
+
 ### [0.0.4](https://github.com/sales-cms-project/lib-proto/compare/v0.0.3...v0.0.4) (2023-09-25)
 
 
