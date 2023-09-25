@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/sales-cms-project/lib-proto/compare/v0.0.1...v0.0.2) (2023-09-25)
+
+
+### Features
+
+* **init:** add the comitizen dependency ([70e26f9](https://github.com/sales-cms-project/lib-proto/commit/70e26f9027b24e9ce6b0b279797cef1a7b213e42))
+
 ### 0.0.1 (2023-09-25)
 
 
