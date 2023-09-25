@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version",
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
     "standard-version": "^9.5.0"
   },
   "config": {
