@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0-beta.0](https://github.com/sales-cms-project/lib-proto/compare/v0.1.0...v0.2.0-beta.0) (2023-09-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **sc-123:** Now the project support a beta release
+
+### ci
+
+* **sc-123:** add a script to release a beta version ([0eca4cc](https://github.com/sales-cms-project/lib-proto/commit/0eca4ccf030d13db6957133eac97a065068f1ebb))
+
 ## [0.1.0](https://github.com/sales-cms-project/lib-proto/compare/v0.0.4...v0.1.0) (2023-09-25)
 
 
