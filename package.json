@@ -1,12 +1,13 @@
 {
   "name": "lib-proto",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "commit": "cz",
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release:beta": "npm run release -- --prerelease beta"
   },
   "keywords": [],
   "author": "",
