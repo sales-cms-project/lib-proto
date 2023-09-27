@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0-beta.1](https://github.com/sales-cms-project/lib-proto/compare/v0.2.0-beta.0...v0.2.0-beta.1) (2023-09-27)
+
+
+### Bug Fixes
+
+* **sc-123:** solve the issue when trying to execute the auth proto file ([f1c9174](https://github.com/sales-cms-project/lib-proto/commit/f1c91743b9f97cbe554df3840bd96cd0d4eed4a4))
+
 ## [0.2.0-beta.0](https://github.com/sales-cms-project/lib-proto/compare/v0.1.0...v0.2.0-beta.0) (2023-09-26)
 
 
