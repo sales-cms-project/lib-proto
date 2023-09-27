@@ -27,8 +27,8 @@ message DeleteAuthCredentialRequest {
 // Change Password
 message ChangeAuthCredentialRequest {
   string userUuid = 1;
-  optional string password = 1;
-  optional bool isBlocked = 1;
+  optional string password = 2;
+  optional bool isBlocked = 3;
 }
 
 // Check Token
